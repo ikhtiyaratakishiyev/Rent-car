@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+}
+body {
+  background: #f6f7f9;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*Nav Start*/
+
+nav {
+  background: #fff;
+}
+nav > .container {
+  padding: 40px 32px 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+.nav-left > h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  color: #3563e9;
+}
+.nav-left > .inpt-c {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 70px;
+  padding: 10px 20px;
+  width: 492px;
+}
+.nav-left > .inpt-c > input {
+  flex: 1;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-right> li{
+  cursor: pointer;
+}
+
+/* Nav End */
+
+/* Cards Section Start*/
+
+.cards-header {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards-header > span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.card-header-gray {
+  color: #90a3bf;
+}
+.card-header-blue {
+  color: #3563e9;
+}
+.cards-c {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.cards-c > .card {
+  width: 100%;
+  max-width: 304px;
+  padding: 24px;
+  border-radius: 10px;
+  background: #fff;
+}
+.card > .card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.card-title > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1a202c;
+}
+.card-title > img {
+  max-width: 24px;
+  max-height: 24px;
+}
+.card > p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+}
+.card-img {
+  height: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img > img {
+  max-width: 80%;
+  max-height: 80%;
+}
+.card-info {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-info > li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.card-info > li > span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+}
+.card-info > li > img {
+  max-width: 24px;
+  max-height: 24px;
+}
+.card-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-button > .price-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card-button > .price-section > p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+}
+.card-button > .price-section > p > span {
+  font-size: 20px;
+  line-height: 25px;
+  color: #1a202c;
+}
+.card-button > button {
+  background: #3563e9;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 100%;
+  max-width: 115px;
+}
+
+.filter-s{
+  
+  padding: 10px 20px;
+}
+/* Filter started*/
+.filter-s{
+  display: none;
+}
+.filter-s>.container>h2{
+  font-size: 24;
+  color: #3563e9;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.filter-c{
+ 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.filter-box{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ padding: 20px;
+}
+.filter-box>input{
+  padding: 10px 20px;
+  border: 1px solid rgb(210, 210, 210) ;
+  background: #fff;
+  color: gray;
+font-size: 18px;
+border-radius: 5px;
+
+}
+
+.filter-box>input:focus{
+border: 1px solid #3563e9;
+box-shadow: 0 0 5px #3563e9;
+}
+.filter-c>button{
+  border: 2px solid #3563e9;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 22px;
+  color: #3563e9;
+  font-weight: 500;
+  transition: .2s;
+}
+.filter-c>button:hover{
+  background: #3563e9;
+  color: #fff;
+}
+.active{
+  display: block;
+}

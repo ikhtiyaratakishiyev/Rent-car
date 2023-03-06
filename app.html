@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MORENT</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container"> 
+        <div class="nav-left">
+            <h1>MORENT</h1>
+            <div class="inpt-c">
+                <img src="./asserts/icon/search.svg" alt="">
+                <input id="search" placeholder="Search something here" type="text">
+                <img src="./asserts/icon/filter.svg" alt="">
+            </div>
+        </div>
+        <div class="nav-right">
+                <li>
+                    <img src="./asserts/icon/like.svg" alt="">
+                </li>
+                <li>
+                    <img src="./asserts/icon/notification.svg" alt="">
+                </li>
+                <li>
+                    <img id="nav-setting" src="./asserts/icon/settings.svg" alt="">
+                </li>
+                <li>
+                    <img src="./asserts/icon/user.svg   " alt="">
+                </li>
+        </div>
+      </div>
+    </nav>
+      <section class="filter-s">
+         <div class="container">
+            <h2>Filter System</h2>
+            <div class="filter-c">
+              <div class="filter-box">
+                <input type="number" placeholder="min price" id="minPrice">
+                <input type="number" placeholder="max price" id ="maxPrice">
+              </div>
+              <div class="filter-box">
+                <input type="number" placeholder=" min year" id="minYear">
+                <input type="number" placeholder="max year" id ="maxYear">
+              </div>
+              <div class="filter-box">
+                <input type="text" placeholder="color" id="color">
+                <input type="text" placeholder="color" id ="type">
+              </div>
+              <button id="btnFilter">Filter</button>
+            </div>
+         </div>
+     </section>
+    <section class="cards-s">
+      <div class="container">
+          <div class="cards-header">
+            <span class="card-header-gray">Popular Car</span>
+            <span class="card-header-blue">View All</span>            
+          </div>
+          <div class="cards-c">
+
+
+          </div>
+      </div>
+    </section>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
