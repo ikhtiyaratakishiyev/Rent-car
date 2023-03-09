@@ -56,6 +56,10 @@ nav > .container {
 .nav-left > .inpt-c > input {
   flex: 1;
 }
+#filtering,
+#searching {
+cursor: pointer;
+}
 .nav-right {
   display: flex;
   align-items: center;

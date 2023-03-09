@@ -3,8 +3,8 @@ import cars from './data.json' assert {type: "json"}
 
 const cardC = document.querySelector('.cards-c')
 const search = document.querySelector('#search')
-const navSettingBtn = document.querySelector("#nav-setting")
 const filterS = document.querySelector(".filter-s")
+const filtering = document.querySelector("#filtering")
 // Filter
 
 const minPrice = document.querySelector("#minPrice");
@@ -163,7 +163,7 @@ btnFilter.addEventListener("click",()=>{
             cardC.appendChild(post)
         })
 })
-navSettingBtn.addEventListener("click",()=>{
+filtering.addEventListener("click",()=>{
    filterS.classList.toggle('active')  
 })
 
